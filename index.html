@@ -1,0 +1,192 @@
+<!---Gabi Cam0sun-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project ASMR Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!---NAV Bar-->
+    <div class="nav">
+        <div class="logo">
+            <!-- <img src="images/signiture.png"> -->
+        </div> 
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle" />
+        <div class="menu">
+            <a id="videoMenu" href="#video">home</a>
+            <a id="factsMenu" href="#threePoints">works</a>
+            <a id="aboutMenu" href="#about">about</a>
+            <a id="signUpMenu" href="#signup"><span>sign up</span></a>
+        </div>
+    </div>
+
+    <div class="nav">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+         <div class="menu">
+           <a href="#home">HOME</a>
+           <a href="#threePoints">TEAM</a>
+           <a href="#details_form">PROJECT ASMR</a>
+           <a href="#conclusion">SPECIAL THANKS</a>
+         </div>
+       </div>
+
+    <!--OPENING-->
+    <section id="home">
+        <!-- <div class="videoDiv">
+            <video autoplay muted loop class="myVideo">
+                <source src=".mp4" type="video/mp4">
+            </video>
+        </div> -->
+        <div id="homeHeader">
+            <h1>A Superb Menu Rater</h1>
+            <p>Team EHG takes on Cuboh's menu rater app project to improve its functionality and security.</p>
+            
+        </div>
+        <div class="homeImage">
+            <img src="images/rating_pic3.png" alt="Star Rating">
+        </div>
+    </section>
+
+    <!--  TEAM BIOS -->
+    <section id="threePoints">
+        <h3>Team EHG</h3>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img class="centered-and-cropped" src="images/hudson.jpg" alt="Hudson" style="width:100%">
+                    <div class="container">
+                        <h2>Hudson G</h2>
+                        <p class="title">Back-end/Front-end/Technical Writing</p>
+                        <p>Docker/Django/AWS</p>
+                        <p>Hudson has always had an interest in complex problem solving. This has helped
+                            him develop the persistence and patience needed to build skills in the software field.
+                        </p>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img class="centered-and-cropped" src="images/erin.png" alt="Erin" style="width:100%">
+                    <div class="container">
+                        <h2>Erin Nie</h2>
+                        <p class="title">Back-end/Front-end/Technical Writing</p>
+                        
+                        <p>Django/GitHub pipeline/Flask</p>
+                        <p>Feeling the drive to do something more with her interest in technology, Erin joined the ICS program in pursuit of further knowledge and to gain practical skills. </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img class="centered-and-cropped" src="images/gabi_s.jpg" alt="Gabi" style="width:100%">
+                    <div class="container">
+                        <h2>Gabi Min</h2>
+                        <p class="title">Back-end/Front-end/Technical Writing</p>
+                        <p>Django/Celery/Docker</p>
+                        <p>Gabi is interested in a chance to prove herself by applying what she has learned from the program in projects like this with her peers and professionals in the software field.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SPONSOR -->
+    <section id="sponsor">
+        <img src="images/cuboh_logo.gif" alt="Cuboh Logo">
+        <div class="sponsor_about">            
+            <p>Cuboh is a company based out of Victoria, BC that integrates delivery apps into a restaurant's POS system and consolidates them into a single tablet to avoid tablet hell.
+                
+             <br><br>The current menu Scraper project was completed by last year's Capstone students.
+                
+                The application is a standalone web-app that takes a client's email and a link to a menu.
+                
+                It then generates a graded report of the menu and sends the client an email with the details of this report.
+                
+                <br><br>The main purpose of the application is to help generate leads for Cuboh’s team.
+                </p>
+        </div>
+    </section>
+    <!--DETAILS-->
+    <section id="details_form">
+        <div class="demo">
+            <h2>How the Menu Rater Works</h2>
+                <img class="center" src="images/menu_screenshot_1.png" alt="Menu Rater Form">
+            <!-- <div class="aboutText">
+            
+            </div>   -->
+        </div>
+    </section>
+    <section id="details_steps">   
+    </section>
+    <!--ACCOMPLISHMENTS-->
+    <section id="tasks">
+        <div class="results">
+            <h2>Our Contribution &amp; Technologies Used</h2>
+            <h6>After going through the onboarding process with the existing menu rater app, we made the following app improvements.</h6>
+        </div>
+        <div class="point work1">
+            <h2>Dockerizing the App</h2>
+        </div>
+        <div class="point work2">
+            <h2>Refactoring from Flask to Django</h2>
+        </div>
+        <div class="point work3">
+            <h2>Replacing multithreading with Celery</h2>
+        </div>
+        
+        <div class="point work1">
+            <i class="arrow down first" style="border-color: #16173e49"></i></br>
+            <i class="arrow down"></i>
+        </div>
+        <div class="point work2">
+            <i class="arrow down first" style="border-color: #16173e49"></i></br>       
+            <i class="arrow down"></i>
+        </div>
+        <div class="point work3">
+            <i class="arrow down first" style="border-color: #16173e49"></i></br>        
+            <i class="arrow down"></i>
+        </div>
+
+        <div class="point work1">
+        </br><img src="images/docker.png" alt="Docker Logo"> </br>
+            <p>Our first major milestone was dockerizing the front-end and back-end of the application.
+                 Dockerization allows us to be able to pack and ship the application easily as a container, making it much easier for our team members to get our environments synced up and working. 
+                 Dockerization will also make deployment much simpler for other developers in the future. 
+            </p>
+        </div>
+        <div class="point work2">
+            <img src="images/django.png" alt="Django Logo"> 
+            <p>Django and Flask are both web frameworks used to deploy web applications. We refactored the app to use Django instead of Flask. The switch was a little more difficult than initially expected, but we worked through it as a team. 
+            </p>
+        </div>
+        <div class="point work3">
+            <img src="images/celery_logo.png" alt="Celery Logo">
+            <p>Celery is like a task manager or queuing system that executes multiple concurrent processes. It is great for long runnings tasks like generating and sending a report. Another advantage of Celery over multithreading is its scalability. 
+            </p>
+        </div>
+    </section>
+    
+    <!--CONCLUSION-->
+    <section id="conclusion">
+        <img class="center" src="images/camosun_logo.png" alt="Camosun Logo">
+        <div class="conclusion_text">            
+            <p>Team EGH would like to thank their sponsors at Cuboh: Sam Kandola, Tate Mowbray, and Manny Pasquale. We'd also like to thank the Camosun faculty members including the Computer Science Department Chair Saryta Schaerer, our faculty advisor Brandon Devnich, and our instructors Jonas Bambi and Katie Tanigawa for their feedback and support throughout the project.
+            </br><br>We appreciate the work each of our team members has put into this project and we hope we take the useful parts of this experience to future endeavors!</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
